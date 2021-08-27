@@ -20,7 +20,7 @@ ns=<namespaceIndex>;<identifiertype>=<identifier>
  
 with the fields
 <namespace index>
-The namespace index formatted as a base 10 number. If the index is 0, then the entire “ns=0;” clause is omitted.
+The namespace index is formatted as a base 10 number. If the index is 0, then the entire “ns=0;” clause is omitted.
 <identifier type>
 A flag that specifies the identifier type. The flag has the following values:
  
@@ -32,8 +32,9 @@ Flag         	Identifier Type
  b	            OPAQUE(ByteString)
  
 <identifier>
-The identifier encoded as string. The identifier is formatted using the XML data type mapping for the identifier type. Note that the identifier may contain any non-null UTF8 character including whitespace.
+The identifier is encoded as a string. The identifier is formatted using the XML data type mapping for the identifier type. Note that the identifier may contain any non-null UTF8 character including whitespace.
 Examples:
 ns=2;s=”MyTemperature”
 
-On the next step, if you are passed the previous steps correctly the client can connect to the server and use your camera for running.
+In the next step, the client can connect to the server and use your camera, if you are passed the previous steps correctly.
+Finally, To exit the program press the 'Q' button on your keyboard.
