@@ -1,6 +1,6 @@
 Hand detection and open-finger counter program
 
-This project is developed in Aug 2021 by python 3.9. It can connect to the Siemens S7-1500 as a client with TIA Portal software through OPCUA communication.
+This project is Published in Aug 2021 by python 3.9. It can connect to the Siemens S7-1500 as a client with TIA Portal software through OPCUA communication.
 
 Library requirements:
 OpenCV:  pip install opencv-python
