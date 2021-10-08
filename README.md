@@ -7,7 +7,7 @@ OpenCV:  pip install opencv-python
 Mediapipe: pip install mediapipe
 Opcua: pip install opcua
  
-How is working:
+How is it working:
 
 On the side of the TIA Portal, you have to activate the OPCUA server and copy the server address.
 After greeting, the software takes the server address from the user in a special format that is noted in the example: (opc.tcp://255.255.255.255:0000)
